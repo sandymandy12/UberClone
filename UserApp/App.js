@@ -20,7 +20,9 @@ import Amplify from 'aws-amplify'
 import config from './aws-exports'
 Amplify.configure(config)
 
-const App = () => React$Node = () => {
+// import Homescreen from './src/screens/HomeScreen';
+
+const App: () => React$Node = () => {
 
   const androidPermission = async () => {
     try {

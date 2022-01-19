@@ -22,7 +22,7 @@ const DestinationSearch = (props) => {
   const navigation = useNavigation();
 
   const checkNavigation = () => {
-    if (originPlace && destinationPlace) {
+    if (originPlace || destinationPlace) {
       navigation.navigate('SearchResults', {
         originPlace,
         destinationPlace,
@@ -37,7 +37,6 @@ const DestinationSearch = (props) => {
   return (
     <SafeAreaView>
       <View style={styles.container}>
-
         <GooglePlacesAutocomplete
           placeholder="Where from?"
           onPress={(data, details = null) => {
@@ -55,7 +54,7 @@ const DestinationSearch = (props) => {
           }}
           fetchDetails
           query={{
-            key: 'AIzaSyCMLt3ixtukjFhWk8mpzGZmoORFqRWUihM',
+            key: 'AIzaSyBuoKk8MrXbixB5puhg27mxW3NdBIi9eeE',
             language: 'en',
           }}
           renderRow={(data) => <PlaceRow data={data} />}

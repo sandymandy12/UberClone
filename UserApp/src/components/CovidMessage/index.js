@@ -6,9 +6,9 @@ import styles from './styles';
 const CovidMessage = (props) => {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Travel only if necessary</Text>
+      <Text style={styles.title}>Choose a location</Text>
       <Text style={styles.text}>
-        Upgrading this package often requires the font files linked to your projects to be updated as well. If the automatic linking works for you, running this again should update the fonts.
+        This is a location where we can perform the desired repair.
       </Text>
       <Text style={styles.learnMore}>Learn more</Text>
     </View>

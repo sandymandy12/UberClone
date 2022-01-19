@@ -8,7 +8,7 @@ import {useNavigation} from '@react-navigation/native'
 
 import styles from './styles.js';
 
-const HomeSearch = (props) => {
+const DeviceSearch = (props) => {
   const navigation = useNavigation();
 
   const goToSearch = () => {
@@ -47,4 +47,4 @@ const HomeSearch = (props) => {
   );
 };
 
-export default HomeSearch;
+export default DeviceSearch;

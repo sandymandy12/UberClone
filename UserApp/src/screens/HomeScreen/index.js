@@ -4,6 +4,7 @@ import { View, Dimensions } from "react-native";
 import HomeMap from '../../components/HomeMap';
 import CovidMessage from '../../components/CovidMessage';
 import HomeSearch from '../../components/HomeSearch';
+import DeviceSearch from '../../components/DeviceSearch'
 
 const HomeScreen = (props) => {
   return (
@@ -14,6 +15,9 @@ const HomeScreen = (props) => {
 
       {/*  Covid Message*/}
       <CovidMessage />
+
+      {}
+      <DeviceSearch />
 
       {/*  Bottom Comp*/}
       <HomeSearch />
