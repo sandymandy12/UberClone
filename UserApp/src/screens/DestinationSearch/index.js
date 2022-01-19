@@ -54,7 +54,7 @@ const DestinationSearch = (props) => {
           }}
           fetchDetails
           query={{
-            key: 'AIzaSyBuoKk8MrXbixB5puhg27mxW3NdBIi9eeE',
+            key: 'process.env.GOOGLE_API_KEY,
             language: 'en',
           }}
           renderRow={(data) => <PlaceRow data={data} />}
